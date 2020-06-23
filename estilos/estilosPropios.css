@@ -1,0 +1,152 @@
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    span,
+    strong,
+    input,
+    button,
+    label {
+        margin: 0;
+        font-family: sans-serif;
+    }
+    /* body {
+        background-color: #f6f9f9;
+    } */
+    
+    header {
+        background: url(../assets/img/bg-header.jpg);
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+    }
+    
+    .divLogo {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+    
+    .titulo-servicios {
+        font-size: 15px;
+        color: #2d3950;
+        padding: 25px;
+    }
+    
+    .desc-servicios {
+        font-size: 15px;
+        color: #9a9a9a;
+    }
+    
+    #servicios {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 30px 0;
+        display: flex;
+    }
+    
+    .caja-servicio {
+        width: 33.3333%;
+        text-align: center;
+    }
+    
+    div.divLogo h3 {
+        text-align: center;
+    }
+    /* Un elemento img que se encuentre dentro de un div
+    con la clase .divLogo */
+    
+    div.divLogo img {
+        display: block;
+    }
+    
+    div.divLogo h3 {
+        margin: 30px 0;
+        font-size: 35px;
+        color: #2d3950;
+    }
+    
+    div.divLogo p {
+        margin: 40px;
+        text-align: center;
+        color: #9a9a9a;
+    }
+    
+    .info-header {
+        max-width: 500px;
+        color: white;
+    }
+    
+    div.info-header h2 {
+        font-size: 93px;
+        justify-content: center;
+        display: flex;
+    }
+    
+    div.info-header hr {
+        border-color: #15a4fa;
+        padding: 0px 50px;
+    }
+    
+    div.info-header div {
+        padding: 30px;
+        font-size: 15px;
+    }
+    
+    div.div-btn {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    div.div-btn button {
+        border-color: #15a4fa;
+        background: unset;
+        padding: 18px 30px;
+        border-radius: 5px;
+        font-size: 17px;
+        color: white;
+    }
+    
+    section#simple {
+        background-color: #f6f9f9;
+    }
+    
+    section#showcase {
+        background-color: gainsboro;
+    }
+    
+    section#stay {
+        background: url(../assets/img/bg-stay.jpg);
+        height: 400px;
+    }
+    
+    section#servicios {
+        background-color: white;
+    }
+    /* ////////////////////////////////////////////SHOWCASE */
+    
+    #showcase {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+    
+    .encabezado {
+        text-align: center;
+        color: #2d3950;
+        padding: 25px;
+    }
+    
+    .caja-galeria {
+        width: 33.333333%;
+    }
+    
+    .filas {
+        display: flex;
+    }
