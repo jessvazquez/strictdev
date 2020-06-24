@@ -106,34 +106,50 @@
         </div>
     </section>
 
-    <section id="stay">
-        <h1>Stay with us</h1>
-        <span>We ensure the quality & support</span>
-        <form action="" id="contacto">
-            <input type="text" placeholder="Nombre completo">
-            <input type="text" placeholder="Correo electronico">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+    <section id="st">
+        <div id="stay">
+            <div style="margin-bottom: 35px;
+            ">
+                <h1 id="titulo-stay">Stay with us</h1>
+                <p style="text-align: center; color: white;">We ensure the quality & support</p>
+            </div>
+            <form action="" id="contacto">
+                <input class="input-form" type="text" placeholder="Nombre completo">
+                <input class="input-form" type="text" placeholder="Correo electronico">
+                <textarea name="" id="" class="input-form" style="resize: none;" cols="50" rows="7" placeholder="Mensaje"></textarea>
+
+                <div style="display: flex;">
+                    <div class="check">
+                        <input id="subs" type="checkbox">
+                        <label for="subs" style="color: white;">Suscribete a nuestras noticias</label>
+                    </div>
+                    <div style="width: 20%;">
+                        <button class="btn" type="button">Send</button>
+
+                    </div>
+                </div>
+
+
+        </div>
+
         </form>
 
-        <div class="check">
-            <input id="subs" type="checkbox">
-            <label for="subs">Suscribete a nuestras noticias</label>
-        </div>
-        <div>
-            <button class="btn" type="button">Send</button>
-        </div>
+
     </section>
 
     <footer id="pie">
-        <span>
-    Copyright 2020, Strict
-        </span>
-        <div id="social-media">
-            <a href="#" target="_blank"><img src="assets/img/icon-facebook.jpg" alt=""></a>
-            <a href="#" target="_blank"> <img src="assets/img/icon-twitter.jpg" alt=""></a>
-            <a href="#" target="_blank"><img src="assets/img/icon-google-plus.jpg" alt=""></a>
-            <a href="#" target="_blank"><img src="assets/img/icon-linked-in.jpg" alt=""></a>
+        <div style="display: flex;">
+            <span style="width: 75%; color: #9a9a9a;">
+                Copyright 2020, Strict
+                    </span >
+            <div id="social-media" style="width: 20%;">
+                <a href="#" target="_blank"><img src="assets/img/icon-facebook.jpg" alt="" class="btn-social"></a>
+                <a href="#" target="_blank"> <img src="assets/img/icon-twitter.jpg" alt="" class="btn-social"></a>
+                <a href="#" target="_blank"><img src="assets/img/icon-google-plus.jpg" alt="" class="btn-social"></a>
+                <a href="#" target="_blank"><img src="assets/img/icon-linked-in.jpg" alt="" class="btn-social"></a>
+            </div>
         </div>
+
     </footer>
 
 </body>
